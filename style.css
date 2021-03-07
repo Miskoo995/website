@@ -63,7 +63,6 @@ nav {
   border-radius: 5%;
   text-align: center;
   justify-content: center;
-  font-size: 5rem;
   transform: perspective(800px) rotateY(180deg);
 }
 .section-main .face.back .download_button {
@@ -80,10 +79,7 @@ nav {
   width: 85%;
   margin-bottom: 5%;
   text-align: center;
-  font-size: 1.5rem;
-}
-.section-main .face.back.row h1 {
-  font-size: 500px;
+  font-size: 2.5rem;
 }
 
 .section-main .face.front > img {
@@ -339,7 +335,9 @@ nav {
     width: 85%;
     margin-bottom: 5%;
     text-align: center;
+    font-size: 4em;
   }
+  .circle3{}
 
   .links {
     margin-left: 20px;
@@ -403,7 +401,7 @@ nav {
     font-size: 2rem;
   }
   .section-main .face.back.row h1 {
-    font-size: 500px;
+    font-size: 2em;
   }
 
   .section-main .face.front > img {
@@ -509,11 +507,13 @@ nav {
     margin-right: 5%;
   }
   .section-main .face.back {
-    width: 40vw;
-    height: 30vh;
+    width: 45vw;
+    height: 48vh;
     z-index: 4;
   }
 }
+
+
 
 @media screen and (max-width: 1025px) {
   .circle1 {
@@ -536,16 +536,21 @@ nav {
   }
   .section-main .face.back {
     align-self: center;
-    width: 60vw;
-    height: 50vh;
-    margin-top: 5%;
-    margin-left: 15%;
+    width: 70vw;
+    height: 40vh;
+    margin-top: 15%;
+    margin-left: 5%;
+   
+
+  }
+  .section-main .face.back.row h1{
+    font-size:2.5rem;
   }
   .section-main .face.back h6 {
     width: 90%;
     margin-bottom: 5%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size:2rem;
   }
   .links {
     display: none;
@@ -577,16 +582,25 @@ nav {
   }
   .section-main .face.back {
     align-self: center;
-    width: 60vw;
-    height: 50vh;
-    margin-top: 5%;
-    margin-left: 15%;
+    width: 65vw;
+    height: 40vh;
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  .section-main .face.back.row h1{
+    font-size:2rem;
+  }
+  .section-main .face.back h6 {
+    width: 90%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size:1.8rem;
   }
   .links-nav {
     margin-left: 50%;
   }
   .container .card{
-    margin-left: 25%;
+    margin-left: 5%;
   }
   .projects {
     width:25%;
@@ -606,7 +620,7 @@ nav {
   .section-main .face.back {
     align-self: center;
     width: 80vw;
-    height: 40vh;
+    height: 35vh;
     margin-top: 10%;
     margin-left: 1%;
   }
@@ -675,7 +689,7 @@ nav {
     width: 80vw;
     height: 38vh;
     margin-top: 10%;
-    margin-left: -1%;
+    
   }
   .container .card{
     margin-top: 15%;
@@ -709,5 +723,53 @@ nav {
   .links-footer ul {
     margin: 2% 8%;
     list-style: none;
+  }
+}
+@media screen and (max-width: 360px) {
+
+  .section-main .face.front img {
+    width: 80vw;
+    height: 50vh;
+  }
+  .section-main .face.back {
+
+    width: 80vw;
+    height: 40vh;
+    align-items: center;
+    margin-top: 15%;
+    
+   
+
+  }
+  .section-main .face.back h6 {
+    width: 85%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 1.2rem;
+   
+  }
+}
+@media screen and (max-width: 320px) {
+  .section-main .face.back {
+
+    width: 80vw;
+    height: 40vh;
+    align-items: center;
+    margin-top: 15%;
+
+  }
+  .section-main .face.back h6 {
+    width: 85%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 1rem;
+   
+  }
+  .section-main .face.back .download_button {
+    width: 42%;
+    padding: 2%;
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 0.9rem;
   }
 }
